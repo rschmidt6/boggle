@@ -14,11 +14,6 @@ Rules:
 */
 
 // Bank of valid words in sample board
-const ALL_WORDS = ["A", "ART", "CAR", "CARD", "CART", "PURPLE", "PRETTY"];
+const DICTIONARY = new Set(["A", "ART", "CAR", "CARD", "CART"]);
 
-export const isWord = (word: string): boolean => ALL_WORDS.includes(word);
-
-export function findWords(board: string[][]) {
-  // Implement your solution here
-  return [];
-}
+export function findWords() {}
